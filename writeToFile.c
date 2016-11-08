@@ -16,7 +16,7 @@ int main()
 	//const char *text = "Write this to the file";
 	char stuffToWrite[80];
 
-	printf("\nWrite some stuff to file");
+	printf("\nWrite some stuff to file: ");
 	fgets(stuffToWrite, 80, stdin);
 	
 	fprintf(f, "Some text: %s\n", stuffToWrite);
